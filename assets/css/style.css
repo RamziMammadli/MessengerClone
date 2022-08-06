@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: inherit;
+}
+body {
+    height: 100vh;
+    
+}
+.container {
+    height: 100%;
+    position: relative;
+}
+.top {
+    background-color: #1877F2;
+    color: white;
+    padding: 8px;
+}
+.middle {
+    display: flex;
+    height: 100%;
+}
+.a1 {
+    width: 25%;
+    height: 100%;
+    border: 1px solid rgb(201, 204, 207);
+}
+.top-a1 {
+    display: flex;
+    justify-content: center;
+    height: 40.1px;
+    padding: 8px;
+    border-bottom: 1px solid rgb(201, 204, 207);
+    
+}
+.search-a1  {
+    position: fixed;
+    left: 0;
+    width: 23.5%;
+    display: flex;
+    align-items: center;
+    border: 1px none black;
+    border-radius: 20px;
+    padding-left: 15px;
+    background-color: rgb(201, 204, 207);
+    height: 25px;
+}
+.search-a1 input {
+    border: 1px solid rgb(201, 204, 207);
+    width: 80%;
+    padding-left: 18px;
+    background-color: rgb(201, 204, 207);
+}
+.n1-1 img {
+    border-radius: 50%;
+}
+
+
+.n1 {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    gap: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.names-a1 {
+    position: fixed;
+    top: 11%;
+    height: 83%;
+    overflow-y: scroll;
+    width: 25%;
+    border-bottom: 1px solid rgb(201, 204, 207);
+}
+
+
+.n1-2 {
+    padding-left: 25px;
+    padding-bottom: 15px;
+    width: 75%;
+    border-bottom: 1px solid rgb(201, 204, 207);
+}
+.a2 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+    border: 1px solid rgb(201, 204, 207);
+    height: 100%;
+    
+}
+.top-a2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 1px solid rgb(201, 204, 207);
+}
+.chat-a2 {
+    flex:1;
+    border-bottom: 1px solid rgb(201, 204, 207);
+}
+.footer-a2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    flex-basis: 10.5%;
+}
+.footer-a1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    position: fixed;
+    bottom: 1%;
+    width: 25%;
+
+}
+.input-a2 input {
+    border: none;
+    width: 100%;
+}
+.input-a2 {
+    width: 80%;
+}
+.marginel {
+    margin-top: 29px;
+}
+
+.middle {
+    position: fixed;
+    width: 100%;
+}
+
+input {
+    outline: none;
+}
